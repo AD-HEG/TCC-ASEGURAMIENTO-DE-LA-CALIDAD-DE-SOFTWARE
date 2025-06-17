@@ -202,8 +202,12 @@ Para más detalles sobre los parámetros de las peticiones, formatos de respuest
    ```bash
    python -m app.main
    ```
+5. pip install uvicorn
 
-5. Run tests (optional):
+6. uvicorn app.main:app --reload --port 8001
+
+
+7. Run tests (optional):
    ```bash
    make test-item  # Run item model tests
    make test-service  # Run service tests
